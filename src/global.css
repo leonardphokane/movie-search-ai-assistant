@@ -1,0 +1,120 @@
+/* ===========================
+   Theme Colors
+   =========================== */
+body.dark {
+  background-color: #0d0d0d;
+  color: #e0e0e0;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body.light {
+  background-color: #f9f9f9;
+  color: #222;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* ===========================
+   Neon NavBar
+   =========================== */
+.neon-nav {
+  background-color: #111;
+  padding: 1rem;
+  color: #0ff;
+  text-shadow: 0 0 5px #0ff, 0 0 10px #0ff;
+  display: flex;
+  flex-direction: column;
+}
+
+.neon-nav .nav-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.neon-nav .nav-links {
+  display: none;
+  flex-direction: column;
+  margin-top: 0.5rem;
+}
+
+.neon-nav .nav-links.open {
+  display: flex;
+}
+
+.neon-nav a {
+  margin-right: 1rem;
+  color: #0ff;
+  text-decoration: none;
+  transition: color 0.3s, text-shadow 0.3s;
+}
+
+.neon-nav a:hover {
+  color: #fff;
+  text-shadow: 0 0 10px #ff00ff, 0 0 20px #0ff;
+}
+
+/* ===========================
+   Theme Toggle Button
+   =========================== */
+.theme-toggle {
+  background: none;
+  border: 1px solid #0ff;
+  color: #0ff;
+  padding: 0.3rem 0.6rem;
+  margin-top: 0.5rem;
+  cursor: pointer;
+  border-radius: 4px;
+  text-shadow: 0 0 5px #0ff;
+  transition: all 0.3s ease;
+}
+
+.theme-toggle:hover {
+  color: #fff;
+  background-color: #0ff;
+  text-shadow: 0 0 10px #ff00ff, 0 0 20px #0ff;
+}
+
+/* ===========================
+   Fade-in Animations
+   =========================== */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in {
+  opacity: 0;
+  animation: fadeIn 1.2s ease-out forwards;
+}
+
+/* ===========================
+   Responsive NavBar
+   =========================== */
+@media (min-width: 768px) {
+  .neon-nav {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .nav-links {
+    display: flex !important;
+    flex-direction: row;
+    gap: 1rem;
+    margin-top: 0;
+  }
+
+  .nav-header button {
+    display: none;
+  }
+
+  .theme-toggle {
+    margin-top: 0;
+  }
+}
