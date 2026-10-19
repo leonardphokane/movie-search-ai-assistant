@@ -14,7 +14,7 @@ A React application built with AI assistance that allows users to search movies 
 ## 🚀 Live Demo & Repository
 - **Movie Demo:** [Movie Search AI Assistant UI](public/movie-search-ai-assistant-ui.png)
 - **Live URL:** [Deployed App Link](https://your-vercel-or-netlify-url.com)
-- **Repository:** [GitHub Repo Link](https://github.com/yourusername/movie-search-ai-assistant)
+- **Repository:** [GitHub Repo Link](https://github.com/leonardphokane/movie-search-ai-assistant)
 
 ---
 
@@ -120,7 +120,6 @@ localStorage.setItem("favorites", JSON.stringify(newFav));
 - OMDb API  
 - LocalStorage for persistence  
 
-### Visual Overview
 
 ### Visual Overview
 
