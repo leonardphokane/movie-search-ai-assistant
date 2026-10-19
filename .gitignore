@@ -50,7 +50,12 @@ pnpm-lock.yaml
 *.tgz
 
 # Ignore generated images or assets if needed
+# (but allow specific README screenshots)
 public/*.png
-public/*.jpg
 public/*.jpeg
 public/*.gif
+
+# Exceptions: keep these tracked
+!public/frontend.jpg
+!public/javascript.jpg
+!public/web-dev-1.jpg
