@@ -124,10 +124,10 @@ localStorage.setItem("favorites", JSON.stringify(newFav));
 
 ### Visual Overview
 
-| Frontend | React | Vite |
+| Frontend | Vite | React |
 |----------|------------|---------|
-| ![Frontend](./public/frontend.jpg) | ![React](./public/javascript.jpg) | ![Vite](./public/web-dev-1.jpg) |
-| *Frontend* | *React* | *Vite* | 
+| ![Frontend](./public/frontend.jpg) | ![Vite](./public/javascript.jpg) | ![React](./public/web-dev-1.jpg) |
+| *Frontend* | *Vite* | *React* | 
  
 
 ---
