@@ -19,6 +19,7 @@
     "react-router-dom": "^7.18.4"
   },
   "devDependencies": {
+    "@vercel/static-build": "^21.0.3",
     "@vitejs/plugin-react": "^6.1.2",
     "vite": "^8.3.4"
   }
