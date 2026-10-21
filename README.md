@@ -14,7 +14,7 @@ A React application built with AI assistance that allows users to search movies 
 ## 🚀 Live Demo & Repository
 - **Movie Demo:**  
   ![Movie Search AI Assistant UI](./public/movie-search-ai-assistant-ui.png)
-- **Live URL:** [Deployed App Link](https://your-vercel-or-netlify-url.com)
+- **Live URL:** [Deployed App Link](https://movie-search-ai-assistant-55ok.vercel.app/)
 - **Repository:** [GitHub Repo Link](https://github.com/leonardphokane/movie-search-ai-assistant)
 
 ---
